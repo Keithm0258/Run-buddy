@@ -31,9 +31,10 @@ header nav ul li {
     display: inline;
 }
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 30px;
     font-weight: lighter;
     font-size: 22px;
+
 }
 footer {
     background: #fce138;
@@ -63,6 +64,7 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
+    align-items: flex-start;
 }
 .hero-form {
     background-color: #fce138;
@@ -192,4 +194,14 @@ section {
 
 .contact-info a {
   color: #fce138;
+}
+
+@media screen and (max-width: 980px) {
+ 
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 575px) {
+
 }
